@@ -1,0 +1,16 @@
+.main {
+    min-height: 700px;
+}
+
+@media (max-width: 900px) {
+    .main {
+        min-height: 500px;
+    }    
+}
+
+@media (max-width: 600px){
+    .main {
+        min-height: 400px;
+    }
+    
+}

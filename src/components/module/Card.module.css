@@ -1,0 +1,146 @@
+.container {
+    width: 220px;
+    border: 2px solid #304ffe58;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icon svg {
+    font-size: 1.8rem;
+    background-color: #304ffe58;
+    color: #3d69c7;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.location {
+    display: flex;
+    color: grey;
+}
+
+.location svg {
+    margin-left: 5px;
+    font-size: 1rem;
+}
+
+.location p {
+    margin-left: 5px;
+    font-size: 0.85rem;
+}
+
+.container span {
+    color: grey;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #3d69c7;
+}
+
+.container a svg {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .icon svg {
+        font-size: 1.4rem;
+    }
+
+    .title {
+        font-size: 0.9rem;
+        margin: 8px 0;
+    }
+
+    .location svg {
+        margin-left: 5px;
+        font-size: 0.9rem;
+    }
+
+    .location p {
+        margin-left: 5px;
+        font-size: 0.8rem;
+    }
+
+    .container span {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+
+    .container a {
+        margin-top: 16px;
+        font-size: 0.9rem;
+    }
+
+    .container a svg {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 190px;
+        border-radius: 10px;
+        padding: 7px;
+        margin: 7px;
+    }
+
+    .icon svg {
+        font-size: 1.3rem;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+
+    .location svg {
+        margin-left: 5px;
+        font-size: 0.85rem;
+    }
+
+    .location p {
+        margin-left: 5px;
+        font-size: 0.75rem;
+    }
+
+    .container span {
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-top: 8px;
+    }
+
+    .container a {
+        margin-top: 12px;
+        font-size: 0.85rem;
+    }
+
+    .container a svg {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,75 @@
+.cotainer h3 {
+    color: #3d69c7;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cotainer p {
+    color: grey;
+}
+
+.createdAt {
+    margin-top: 100px;
+    display: flex;
+    background-color: #304ffe18;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.createdAt p {
+    margin: 0;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.createdAt span {
+    color: #3d69c7;
+}
+
+@media (max-width: 900px) {
+    .cotainer h3 {
+        font-size: 1.25rem;
+    }
+    .cotainer p{
+        font-size: 0.9rem;
+    }
+    .createdAt{
+        margin-top: 80px;
+    }
+
+    .createdAt p {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+    .createdAt span{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .cotainer h3 {
+        font-size: 1rem;
+    }
+
+    .cotainer p{
+        font-size: 0.8rem;
+    }
+
+    .createdAt{
+        margin-top: 50px;
+    }
+
+    .createdAt p {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .createdAt span{
+        font-size:  0.8rem;
+    }
+
+}

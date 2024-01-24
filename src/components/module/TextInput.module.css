@@ -1,0 +1,104 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.container input,
+.container textarea {
+  margin-bottom: 5px;
+  width: 300px;
+  border: 1px solid #3d69c7; 
+  color: grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  height: 40px;
+}
+
+.container input:focus,
+.container textarea:focus {
+  border: 1px solid #3d69c7; 
+  outline: none;
+}
+
+.container textarea {
+  height: 100px;
+}
+
+.container p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.error{
+  margin-left: auto;
+  color: #c73d44;
+  margin-bottom: 40px;
+  font-size: 0.85rem;
+}
+
+
+@media (max-width: 900px) {
+  .container input,
+  .container textarea {
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 10px;
+    font-size: 0.9rem;
+    height: 35px;
+  }
+
+  .error{
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+  }
+  
+  
+  .container input:focus,
+  .container textarea:focus {
+    border: 1px solid #3d69c7; 
+    outline: none;
+  }
+  
+  .container textarea {
+    height: 100px;
+  }
+  
+  .container p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+    
+}
+
+
+
+@media (max-width: 600px) {
+  .container input,
+  .container textarea {
+    margin-bottom: 5px;
+    width: 180px;
+    padding: 10px;
+    font-size: 0.75rem;
+    height: 35px;
+  }
+  
+  .error{
+    font-size: 0.68rem;
+    margin-bottom: 20px;
+  }
+
+  .container input:focus,
+  .container textarea:focus {
+    border: 1px solid #3d69c7; 
+    outline: none;
+  }
+  
+  .container textarea {
+    height: 100px;
+  }
+  
+  .container p {
+    font-size: 0.75rem;
+    margin-bottom: 2px;
+  }
+}

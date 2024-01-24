@@ -1,0 +1,56 @@
+.card {
+    box-shadow: #304ffe4a 0px 4px 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    transition: all ease-in 0.1s;
+    margin: 10px 0;
+  }
+  
+  .card:hover {
+    transform: rotate(5deg);
+  }
+  
+  .card img {
+    border-radius: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #3d69c7;
+    text-align: center;
+    margin: 10px 0 5px;
+  }
+
+  @media (max-width: 900px) {
+    .card img {
+      border-radius: 10px;
+      width: 220px;
+      height: 134px;
+    }
+     
+  }
+  
+  @media (max-width: 600px) {
+    .desc h1 {
+      font-size: 1.7rem;
+      margin-bottom: 20px;
+    }
+    .desc li {
+      font-size: 12px;
+      width: 65px;
+      margin: 10px;
+    }
+
+  
+    .categories {
+      justify-content: center;
+    }
+  
+    .city ul {
+      justify-content: center;
+    }
+  }
+  
+  
