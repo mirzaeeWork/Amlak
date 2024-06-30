@@ -128,7 +128,7 @@ export async function PATCH(req: NextRequest) {
 
     return NextResponse.json(getProfileSuccessResponse(
       [profile],
-      ProfileResponseMessages.STATUS_UPDATED
+      ProfileResponseMessages.PUBLISH_UPDATED
     ));
 
   } catch (error) {
